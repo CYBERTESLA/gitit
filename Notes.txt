@@ -125,4 +125,7 @@ Tags are version numbers
 
         git tag -a v1.0 -m "My first tag"
 
-You have to push tags seperately
+You have to push tags seperately:
+
+    git push origin <version>
+    

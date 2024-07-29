@@ -124,3 +124,5 @@ Tags are version numbers
     Example:
 
         git tag -a v1.0 -m "My first tag"
+
+You have to push tags seperately

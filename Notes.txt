@@ -1,3 +1,27 @@
+Setting up git:
+
+    git config --global user.name "name"   // setting up username
+    git config --global user.email "email@example.com"  //setting up email
+    git config --global --list  //listing
+
+Initializing Git:
+
+    >>git status
+    Not a git repository
+
+    >>git init  //initializes git and creates a .git directory
+    initialized git repository
+
+    >>git status
+    On branch master
+    No commits yet
+    
+    Note: To remove git, just remove the  .git directory
+
+    >>git checkout -b main  // creates a branch called main
+    On branch main
+    No commits yet
+
 To track a file, you have to stage it first.
 To stage a file, you have to add it:
 

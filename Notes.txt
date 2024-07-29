@@ -1,0 +1,17 @@
+To track a file, you have to stage it first.
+To stage a file, you have to add it:
+
+    git add <filename>
+    (You can check by typing "git status")
+
+The staged files will be commited when you make a commit.
+
+To see all your commits in the current branch:
+
+    git log
+
+
+To commit:
+
+    git commit -m "Your message"
+

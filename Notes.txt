@@ -141,4 +141,8 @@ Creating a branch:
 
     git checkout -b <branch name>
 
+To switch between branches:
+
+    git switch <branch name>
+
     

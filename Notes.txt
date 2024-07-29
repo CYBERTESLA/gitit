@@ -23,11 +23,17 @@ Initializing Git:
     No commits yet
 
 To track a file, you have to stage it first.
+
+
 To stage a file, you have to add it:
 
     git add <filename>
     (You can check by typing "git status")
 
+To unstage a file:
+
+    git restore --staged <filename>
+    
 The staged files will be commited when you make a commit.
 
 To see all your commits in the current branch:
@@ -49,4 +55,16 @@ In order to commit directly without staging, use the -a flag in your commit:
 
     git commit -a -m "Your Message"
 
+The Git Diff Command:
     
+    git diff
+
+    This command will show the difference between 
+    your current working directory (unstaged files) and the latest commit you made.
+
+    To see diff after staging, use --staged flag:
+
+        git diff --staged
+
+    
+

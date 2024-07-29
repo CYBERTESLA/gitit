@@ -66,9 +66,14 @@ The Git Diff Command:
 
         git diff --staged
 
-How to remove files from a repository 
+How to remove files from a repository
 (Files such as credentials etc.)
 
 Since the file (say creds.txt) is already committed before, 
 if you just remove it from your working directory,
 it won't be removed from the git history.
+So, to remove it from the repository(Keep it Locally):
+
+    git rm --cached <filename>
+
+Now it will be untracked.

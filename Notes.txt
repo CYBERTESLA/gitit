@@ -84,3 +84,21 @@ So, to remove it from the repository(Keep it Locally):
     git rm --cached <filename>
 
 Now it will be untracked.
+
+---------------------------------------------
+
+I just learned about remote repository on github.
+
+You can create a new repository form your Dashboard
+
+and it will show you the steps to follow.
+
+https://youtu.be/vwj89i2FmG0?t=3131
+
+This video taught how to push via ssh
+
+if you're on a new machine, follow the steps.
+
+I don't know how to do so via http.
+
+Let's push this repository to a remote one.

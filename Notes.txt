@@ -18,9 +18,16 @@ Initializing Git:
     
     Note: To remove git, just remove the  .git directory
 
-    >>git checkout -b main  // creates a branch called main
+    >>git checkout -b main  // creates a branch called main and switches to that branch
     On branch main
     No commits yet
+
+    OR 
+
+    >>git branch -M main // Renames the current branch to main
+    On branch main
+    No commits yet
+
 
 To track a file, you have to stage it first.
 

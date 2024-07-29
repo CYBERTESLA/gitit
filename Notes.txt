@@ -128,4 +128,17 @@ Tags are version numbers
 You have to push tags seperately:
 
     git push origin <version>
+
+Cloning a remote repo:
+
+    git clone <URL>
+
+Branches:
+
+    git branch  // to see your branches
+
+Creating a branch:
+
+    git checkout -b <branch name>
+
     

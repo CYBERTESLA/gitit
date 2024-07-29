@@ -33,7 +33,7 @@ To stage a file, you have to add it:
 To unstage a file:
 
     git restore --staged <filename>
-    
+
 The staged files will be commited when you make a commit.
 
 To see all your commits in the current branch:
@@ -66,5 +66,8 @@ The Git Diff Command:
 
         git diff --staged
 
-    
+How to remove files from a repository 
+(Files such as credentials etc.)
+
+
 

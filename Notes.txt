@@ -69,5 +69,6 @@ The Git Diff Command:
 How to remove files from a repository 
 (Files such as credentials etc.)
 
-
-
+Since the file (say creds.txt) is already committed before, 
+if you just remove it from your working directory,
+it won't be removed from the git history.

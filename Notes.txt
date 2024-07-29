@@ -102,3 +102,11 @@ if you're on a new machine, follow the steps.
 I don't know how to do so via http.
 
 Let's push this repository to a remote one.
+
+------------------------------------------------
+
+How do I remove a file completely from the version history of the repository?
+
+I tried 'git rm --cached <filename>'
+
+but it didn't remove it from the previous commits.

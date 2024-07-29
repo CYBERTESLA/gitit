@@ -39,3 +39,14 @@ To commit:
 
     git commit -m "Your message"
 
+So, to summarize:
+Edit -> Stage -> Commit 
+
+Everytime you edit a file, it goes into the modified state,
+and you have to add it to commit and then commit it.  
+
+In order to commit directly without staging, use the -a flag in your commit:
+
+    git commit -a -m "Your Message"
+
+    

@@ -159,4 +159,19 @@ To push a branch:
 
     git push origin <branch name>
     
-    
+
+How to Switch between commits:
+
+    git checkout <commit-hash>
+
+To get the hashes of previous commits:
+
+    git log --oneline
+
+To get to the present branch:
+
+    git checkout main //(or master)
+
+To create a new branch from any commit:
+
+    git checkout -b <branch-name> <commit-hash>

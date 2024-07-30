@@ -1,1 +1,4 @@
 This file is in branch1
+
+These changes are being made without commiting.
+I will switch to a different branch and come back to see if these changes persist.

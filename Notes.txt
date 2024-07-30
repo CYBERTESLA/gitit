@@ -180,4 +180,12 @@ To merge a branch with the current branch:
 
     git merge <branch-name>
 
+
+----------------------------------------------------
+
+Before pushing a branch, you should first pull it from the remote repo,
+because changes might have happened since your last pull.
+
+    git pull origin <branch-name>
+
     

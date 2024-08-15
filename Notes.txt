@@ -188,4 +188,46 @@ because changes might have happened since your last pull.
 
     git pull origin <branch-name>
 
-    
+-----------------------------------------------------
+
+Ok so, I've been setting up my website repo
+
+and I've learned this:
+
+My repo was already created, and I wanted to code it on my machine.
+I wanted to push it via ssh.
+To do that, first you have to generate a key. (Do this in ~/.ssh folder)
+
+    ssh-keygen -o
+
+Then set a name to it.
+
+a public and a private key will be generated.
+
+Take the public key (It has a .pub extension) and add it to your account in the github settings.
+
+Now that your keys are set up.
+Clone the repository. 
+Check The remote URL:
+    git remote -v
+You should see something like:
+
+    origin  https://github.com/your-username/your-repo-name.git (fetch)
+    origin  https://github.com/your-username/your-repo-name.git (push)
+
+If the URL is using HTTPS, update it to use SSH: 
+
+    git remote set-url origin git@github.com:your-username/your-repo-name.git
+    (You'll find this URL on the remote repository, Click on code and under ssh)
+
+Verify the change:
+    git remote -v
+
+You should now see:
+
+    origin  git@github.com:your-username/your-repo-name.git (fetch)
+    origin  git@github.com:your-username/your-repo-name.git (push)
+
+Test the connection:
+    git push origin main
+ 
